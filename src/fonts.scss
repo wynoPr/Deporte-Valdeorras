@@ -1,0 +1,326 @@
+@font-face {
+    font-family: "Valonik";
+    src: url("../src/fonts/Valonik/valonik-valonik-extrabold-700.otf")
+      format("truetype");
+    font-weight: 800;
+  }
+@font-face {
+    font-family: "Valonik";
+    src: url("../src/fonts/Valonik/valonik-valonik-extrabold-slanted-700.otf")
+      format("truetype");
+    font-weight: 800;
+    font-style: italic;
+  }
+@font-face {
+    font-family: "Valonik";
+    src: url("../src/fonts/Valonik/valonik-valonik-light-200.otf")
+      format("truetype");
+    font-weight: 200;
+  }
+@font-face {
+    font-family: "Valonik";
+    src: url("../src/fonts/Valonik/valonik-valonik-light-slanted-200.otf")
+      format("truetype");
+    font-weight: 200;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Neutra";
+    src: url("../src/fonts/Neutra/NeutraText-BoldAlt.otf");
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: "Neutra";
+    src: url("../src/fonts/Neutra/NeutraText-BoldItalicAlt.otf");
+    font-weight: 600;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Neutra";
+    src: url("../src/fonts/Neutra/NeutraText-DemiAlt.otf");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Neutra";
+    src: url("../src/fonts/Neutra/NeutraText-DemiItalicAlt.otf");
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Neutra";
+    src: url("../src/fonts/Neutra/NeutraText-BookAlt.otf");
+    font-weight: 200;
+  }
+  @font-face {
+    font-family: "Neutra";
+    src: url("../src/fonts/Neutra/NeutraText-BookItalicAlt.otf");
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  //Fuentes
+  
+  .hl {
+    font-family: "Valonik";
+    font-weight: 800;
+    font-size: 120px;
+    color: #2d2a26;
+  }
+  .h1 {
+    font-family: "Valonik";
+    font-weight: 800;
+    font-size: 40px;
+    color: #2d2a26;
+  }
+  .h2 {
+    font-family: "Neutra";
+    font-weight: 400;
+    font-size: x-large;
+    color: #2d2a26;
+  }
+  .h3 {
+    font-family: "Neutra";
+    font-weight: 600;
+    font-size: larger;
+    color: #2d2a26;
+  }
+  .h4 {
+    font-family: "Neutra";
+    font-weight: 400;
+    font-size: large;
+    color: #2d2a26;
+    font-style: italic;
+  }
+  .p{
+    font-family: "Neutra";
+    font-weight: 200;
+    font-size: medium;
+    color: #2d2a26;
+  }
+  .p-s {
+    font-family: "Neutra";
+    font-weight: 200;
+    font-size: small;
+    color: #2d2a26;
+  }
+  .span {
+    font-family: "Valonik";
+    font-weight: 200;
+    font-size: medium;
+    color: #2d2a26;
+  }
+  .span_alt {
+    font-family: "Neutra";
+    font-weight: 400;
+    font-size: medium;
+    color: #2d2a26;
+  }
+  @media (max-width: 480px) {
+    //Fuentes
+  
+  .hl {
+    font-family: "Valonik";
+    font-weight: 800;
+    font-size: 64px;
+    color: #2d2a26;
+  }
+  .h1 {
+    font-family: "Valonik";
+    font-weight: 800;
+    font-size: x-large;
+    color: #2d2a26;
+  }
+  .h2 {
+    font-family: "Neutra";
+    font-weight: 400;
+    font-size: larger;
+    color: #2d2a26;
+  }
+  .h3 {
+    font-family: "Neutra";
+    font-weight: 600;
+    font-size: large;
+    color: #2d2a26;
+  }
+  .h4 {
+    font-family: "Neutra";
+    font-weight: 400;
+    font-size: medium;
+    color: #2d2a26;
+    font-style: italic;
+  }
+  .p{
+    font-family: "Neutra";
+    font-weight: 200;
+    font-size: small;
+    color: #2d2a26;
+  }
+  .p-s {
+    font-family: "Neutra";
+    font-weight: 200;
+    font-size: smaller;
+    color: #2d2a26;
+  }
+  .span {
+    font-family: "Valonik";
+    font-weight: 200;
+    font-size: small;
+    color: #2d2a26;
+  }
+  .span_alt {
+    font-family: "Neutra";
+    font-weight: 400;
+    font-size: small;
+    color: #2d2a26;
+  }
+  }
+
+  .neutra {
+    font-family: "Neutra";
+  }
+  .it {
+    font-style: italic;
+  }
+  .bold {
+    font-weight: 600;
+  }
+  
+  .f-w {
+    color: #FAFAFB;
+  }
+  .f-faint {
+    color: #D9D9D9;
+  }
+  .f-dim {
+    color: #766E64;
+  }
+  .f-o90 {
+    opacity: 0.9;
+  }
+  .f-o70 {
+    opacity: 0.7;
+  }
+  .f-o50 {
+    opacity: 0.5;
+  }
+  
+  .title {
+    margin-bottom: 40px;
+  }
+
+  
+  
+  //bttns
+  .btt_nav{
+    height: 100%;
+    padding: 0 10px;
+    margin: 0 10px;
+    display: flex;
+  }
+
+  //other
+
+  .danger{
+    color: #FF8A67;
+    // background-color: #EE4443;
+  }
+  .active {
+    color: #ff3c01;
+    // background-color: #EE4443;
+  }
+  // .active_bg {
+  //   color: #ff3c01;
+  //   background-color: #EE4443;
+  // }
+  // .active:hover {
+  //   color: #ee4443;
+  //   // background-color: #EE4443;
+  // }
+  .icon {
+    height: 48px;
+    font-size: 48px;
+  }
+  .icon_s {
+    height: 32px;
+    font-size: 32px;
+  }
+
+  .updown{
+    transform: rotatex(0deg);
+    transition: ease-in-out 0.2s ;
+  }
+  .updown:hover{
+    transform: rotatex(180deg);
+    transition: ease-in-out 0.2s;
+  }
+
+
+  
+
+
+
+
+
+
+
+
+  /*
+  .link {
+    color: #2d2a26;
+    transition: transform 0.3s;
+    margin: 0 10px;
+    fill: #2d2a26;
+  }
+  .link:hover {
+    color: #ffb548;
+    fill: #ffb548;
+    transform: scale(1.1);
+  }
+  .btt {
+    padding: 10px 20px;
+    color: #f8f8f8;
+    background-color: #ffd292;
+    border-radius: 10px;
+  }
+  .btt.active {
+    background-color: #ee4443;
+  }
+  .btt:hover {
+    background-color: #ffb548;
+  }
+  .toggle {
+    position: relative;
+    height: 15px;
+    aspect-ratio: 2/1;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    transition: background-color 0.25s ease-in;
+  }
+  .toggle::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 11px;
+    height: 11px;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    transition: all 0.25s ease-out;
+  }
+  .toggle.active {
+    background-color: #ee4443;
+    transition: background-color 0.25s ease-in;
+  }
+  .toggle.active::after {
+    transform: translateX(15px);
+  }
+  .toggle_icon {
+    width: 100%;
+    background-color: #ffffff00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+  
+  */
