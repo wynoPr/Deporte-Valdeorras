@@ -70,8 +70,6 @@ const [loaded, setLoaded] = useState(false);
       <BrowserRouter>
       <Header data={data}/>
           <Routes>
-
-          {/* data pages generator */}
           {data?.length > 0 && data.map((item, i) => 
             <Route key={i} path={item.data.cat.type + '/' + item.name} element={<F_data data={item.data} publi={publi[i]} /> } />
             )}
