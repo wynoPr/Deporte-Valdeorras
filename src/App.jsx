@@ -77,8 +77,7 @@ const [loaded, setLoaded] = useState(false);
             )}
             <Route path="/" element={<Directory data={data}/>} />
             <Route path="/styles" element={<Estilos />} />
-            <Route path="*" element={<Navigate to="/" />} />
-            {/* { loaded == false ? <Route path="*" element={<Loading data={location}/>} /> : <Route path="*" element={<Navigate to="/" />} />} */}
+            { loaded == false ? <Route path="*" element={<Loading data={location}/>} /> : <Route path="*" element={<Navigate to="/" />} />}
             
           </Routes>
       </BrowserRouter>
