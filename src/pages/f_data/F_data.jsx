@@ -55,7 +55,7 @@ export default function F_data({data, publi}) {
 
   useEffect(() => {
     sortTeam();
-  }, []);
+  }, [data]);
     
   return (
         <main className='container'>
