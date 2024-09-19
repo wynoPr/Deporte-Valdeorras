@@ -8,7 +8,7 @@ import Publi from '../../components/publi/Publi';
 
 export default function F_data({data, publi}) {
 
-  if (!data ||!publi) {
+  if (!data ) {
     return <div>Loading...</div>;
   }
 
@@ -92,7 +92,7 @@ export default function F_data({data, publi}) {
               </div>
             </div>
           </section>
-          <Publi data={publi.add_p1}/>
+          {publi && <Publi data={publi.add_p1}/>}
           <section className='f_data_team'>
               {/* <F_a_card coach={data.coach} staff={data.staff}/> */}
               {porteiro && porteiro.length > 0 && (
@@ -166,7 +166,7 @@ export default function F_data({data, publi}) {
                 </>
               )}
           </section>
-          <Publi data={publi.add_p2}/>
+          {publi && <Publi data={publi.add_p2}/>}
         </main>
   )
 }
