@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Direct_card({data}) {
 
-    console.log(data.name);
+    // console.log(data.name);
     
 
   return (

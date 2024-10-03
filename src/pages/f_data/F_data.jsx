@@ -95,6 +95,13 @@ export default function F_data({data, publi}) {
           {publi && <Publi data={publi.add_p1}/>}
           <section className='f_data_team'>
               {/* <F_a_card coach={data.coach} staff={data.staff}/> */}
+                <>
+                {/* <h2 className='h1 team_position'>Corpo técnico:</h2> */}
+                <div className='team_cards'>
+                  <F_a_card coach={data.coach} staff={data.staff}/>
+                </div>
+                </>
+              
               {porteiro && porteiro.length > 0 && (
                 <>
                 <h2 className='h1 team_position'>Porteiros:</h2>

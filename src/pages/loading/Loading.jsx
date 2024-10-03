@@ -14,7 +14,7 @@ export default function Loading({data}) {
 
     setTimeout(() => {
         setLoaded(true)
-        console.log(loaded);
+        // console.log(loaded);
         navigate(data)
     }, 2000);
 
