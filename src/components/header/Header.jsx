@@ -48,7 +48,7 @@ data.forEach(item => {
             ))}
             </div>
           </button>
-          <button className='btt_dd h3 act'>FS<svg className='btt_dd_updown' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z"/></svg>
+          <button className='btt_dd h3'>FS<svg className='btt_dd_updown' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z"/></svg>
           <div className='btt_dd_div'>
             {FS.length > 0 && FS.map((item, i) => (
               item.visible === true && <NavLink key={i} to={`${item.data.cat.type}/${item.name}`} className='btt_dd_a p bold'>{item.data.name}</NavLink>
