@@ -95,3 +95,62 @@ body{
       height: 70vh;
       width: 80vw;
     }
+
+    //Botones
+
+    .btt_dd{
+      position: relative;
+      height: 40px;
+      padding: 5px 20px;
+
+      background-color: rgba(255, 255, 255, 0);
+      border-bottom: 3px rgba(255, 255, 255, 0) solid;
+
+      display: flex;
+      align-items: flex-end;
+      svg{
+        position: relative;
+        top: 3px
+      }
+      div{
+        max-height: 0;
+        position: absolute;
+        width: fit-content;
+        z-index: 10;
+        top: 40px;
+        left: 0px;
+        padding: 0;
+        border-radius:  0 0 10px 10px ;
+
+        background-color: #fafafbbc;
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+        a{
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        a:hover{
+          color: #ff8a67;
+        }
+
+      }
+    }
+    .btt_dd:hover, .btt_dd:active{
+      background-color: #766e6411;
+      border-bottom: 3px #ff8a67 solid;
+      div{
+        max-height: 500px;
+        padding: 20px 20px 10px 20px;
+      }
+    }
+    .btt_dd.act{
+      border-bottom: 3px #ff3c01 solid;
+      svg{
+        position: relative;
+        transform: rotatex(180deg);
+      }
+    }

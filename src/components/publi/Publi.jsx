@@ -8,7 +8,7 @@ function Publi({data}) {
 
     const diapos = data.length;
 
-    console.log(diapos);
+    // console.log(diapos);
     
     
     return (

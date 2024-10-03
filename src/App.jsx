@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react';
 
 import './App.scss'
 import "./index.scss";
@@ -60,7 +61,7 @@ function App() {
 // console.log(data[1].name);
 
 const location = window.location.pathname;
-console.log(location);
+// console.log(location);
 
 const [loaded, setLoaded] = useState(false);
 
@@ -79,6 +80,7 @@ const [loaded, setLoaded] = useState(false);
             
           </Routes>
       </BrowserRouter>
+      <Analytics/>
       </GlobalContext.Provider>
   )
 }
